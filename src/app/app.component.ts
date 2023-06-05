@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'custom-d';
+  number = 25;
+  isClicked = false;
+  onClick(){
+    this.isClicked = true;
+  }
 }
